@@ -27,7 +27,7 @@ app =
 init : Url.Url -> Nav.Key -> ( Model, Cmd FrontendMsg )
 init url key =
     ( { circles = []
-      , windowWidth = 1000
+      , windowWidth = 1400
       , windowHeight = 800
       }
     , Cmd.none
